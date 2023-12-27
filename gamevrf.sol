@@ -86,9 +86,9 @@ contract Bet is VRFConsumerBaseV2 {
 
     IERC20 public token;
 
-    address vrfCoordinator = 0x271682DEB8C4E0901D1a1550aD2e64D568E69909;
+    address vrfCoordinator = ;
 
-    bytes32 keyHash = 0xff8dedfbfa60af186cf3c830acbc32c05aae823045ae5ea7da1e45fbfaba4f92;
+    bytes32 keyHash =;
 
     uint32 callbackGasLimit = 500000;
 
@@ -110,7 +110,7 @@ contract Bet is VRFConsumerBaseV2 {
 
     
     address s_owner;  
-    address public creator =  0x3945A69a6635676B031702f411639c5C41262225;
+    address public creator =  ;
 
     constructor(uint64 subscriptionId) VRFConsumerBaseV2(vrfCoordinator) {
         COORDINATOR = VRFCoordinatorV2Interface(vrfCoordinator);
